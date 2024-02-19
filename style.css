@@ -1,0 +1,56 @@
+.flag {
+    height: 600px;
+    width: 900px;
+    background-color: #FECB00;
+    position: relative;
+}
+.flag > div {
+    background-color: #EA2839;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    top: 200px;
+}
+.flag > div > div {
+    position: absolute;
+    background-color: #34B233;
+    height: 200px;
+    width: 100%;
+}
+.star {
+    margin-left: 28%;
+    margin-top: 5%;
+}
+.star {
+    height: 0;
+    width: 0;
+    border-left: solid 200px transparent;
+    border-right: solid 200px transparent;
+    border-bottom: solid 150px #FFFFFF;
+    transform: rotate(37deg);
+}
+.star::before{
+    position: absolute;
+    display: block;
+    content: '';
+    top: 8px;
+    left: -210px;
+    border-left: solid 200px transparent;
+    border-right: solid 200px transparent;
+    border-bottom: solid 150px #FFFFFF;
+    transform: rotate(286deg);
+}
+.star::after{
+    position: absolute;
+    display: block;
+    content: '';
+    top: 8.5px;
+    left: -195px;
+    border-left: solid 200px transparent;
+    border-right: solid 200px transparent;
+    border-bottom: solid 150px #FFFFFF;
+    transform: rotate(69deg);
+}
+
+
+ 
